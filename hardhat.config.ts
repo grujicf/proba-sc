@@ -18,7 +18,7 @@ const optimizedComilerSettings = {
 const config: HardhatUserConfig = {
   paths: {
     sources: "./meow",
-    artifacts: "./OVDEBUILD-MAIN",
+    artifacts: "./OVDEBUILD-MOJA-RANDOM",
     cache: "./build/cache",
   },
   solidity: {
