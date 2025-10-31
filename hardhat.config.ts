@@ -16,6 +16,11 @@ const optimizedComilerSettings = {
 };
 
 const config: HardhatUserConfig = {
+  paths: {
+    sources: "./meow",
+    artifacts: "./OVDEBUILD-MAIN",
+    cache: "./build/cache",
+  },
   solidity: {
     compilers: [
       {
