@@ -17,6 +17,12 @@ contract RandomContract3 {
         }
     }
 
+    function updateAddr2(address[] calldata _adrese) public {
+        for(uint256 i = 0; i < _adrese.length; i++) {
+            adrese.push(_adrese[i]);
+        }
+    }
+
     function update(uint _number, string memory _name) public {
         number = _number;
         name = _name;
