@@ -25,4 +25,8 @@ contract RandomContract3 {
     function getValues() public view returns (uint, string memory) {
         return (number, name);
     }
+
+    function getValues2() public view returns (uint, string memory, address[] memory) {
+        return (number, name, adrese);
+    }
 }
