@@ -4,6 +4,11 @@ contract RandomContract3 {
     uint public number = 20;
     string public name = "filip";
 
+    constructor() {
+        number = 20;
+        name = "filip";
+    }
+
     function update(uint _number, string memory _name) public {
         number = _number;
         name = _name;
